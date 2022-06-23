@@ -56,7 +56,7 @@ def main():
         os.chdir(BOOK_PATH + BOOK_NAME)
         type_kl = os.path.isdir(i)
 
-        if i == "images":
+        if i == "images" or i == ".git":
             continue
 
         if type_kl:
